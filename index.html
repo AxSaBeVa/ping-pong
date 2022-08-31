@@ -11,14 +11,21 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        
 
     </head>
     <body background="Asgore-background-effect-remake-YouTube.jpg">
     <center>
         <button onclick="startgame()"></button>
-        <div></div>
-        <script src="main.js"></script>
+        <div id="gamestat"></div>
+        <script src="main.js"></script>   
+        <button id="restart" onclick="restart()">reiniciar</button>
+        <div id="instrucciones">
+            <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <h4>pie de pagina normal xD-Axel Salomon Bernal Vargas</h4>
+
     </center>
     </body>
 </html>
